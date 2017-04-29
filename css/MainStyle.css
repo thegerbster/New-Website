@@ -3,6 +3,9 @@ body {
 	Background-image: url("../pictures/background.jpg");
 	color: #FFF;
 }
+a {
+  color: blue;
+}
 
 .sidenav {
     height: 100%;
