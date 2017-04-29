@@ -11,7 +11,7 @@ if (fileName == "index.html") {
 	link1 = "Downloads";
 	link2 = "Changelog";
 
-	path0 = "";
+	path0 = "links.html";
 	path1 = "downloads.html";
 	path2 = "changelog.html";
 }
@@ -21,7 +21,7 @@ if (fileName == "changelog.html") {
 	link2 = "Downloads";
 
 	path0 = "index.html";
-	path1 = "";
+	path1 = "links.html";
 	path2 = "downloads.html";
 }
 if (fileName == "downloads.html") {
@@ -30,7 +30,16 @@ if (fileName == "downloads.html") {
 	link2 = "Changelog";
 
 	path0 = "index.html";
-	path1 = "";
+	path1 = "links.html";
+	path2 = "changelog.html";
+}
+if (fileName == "links.html") {
+	link0 = "Home";
+	link1 = "Downloads";
+	link2 = "Changelog";
+
+	path0 = "index.html";
+	path1 = "downloads.html";
 	path2 = "changelog.html";
 }
 
