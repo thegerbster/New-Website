@@ -10,19 +10,28 @@ if (fileName == "index.html") {
 	link0 = "Links";
 	link1 = "Downloads";
 	link2 = "Changelog";
-	
-	path0 = "#";
-	path1 = "#";
+
+	path0 = "";
+	path1 = "downloads.html";
 	path2 = "changelog.html";
 }
 if (fileName == "changelog.html") {
 	link0 = "Home";
 	link1 = "Links";
 	link2 = "Downloads";
-	
+
 	path0 = "index.html";
-	path1 = "#";
-	path2 = "#";
+	path1 = "";
+	path2 = "downloads.html";
+}
+if (fileName == "downloads.html") {
+	link0 = "Home";
+	link1 = "Links";
+	link2 = "Changelog";
+
+	path0 = "index.html";
+	path1 = "";
+	path2 = "changelog.html";
 }
 
 document.write('\
